@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6322653D25538377004C32E9 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322653C25538377004C32E9 /* ForgotPasswordViewController.swift */; };
+		6322662D2527CFD700FBB493 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322662C2527CFD700FBB493 /* LoginViewController.swift */; };
+		6365F95525421F1700B39EB3 /* CreateFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365F95425421F1700B39EB3 /* CreateFoodViewController.swift */; };
+		6365F95A2542243F00B39EB3 /* CreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365F9592542243F00B39EB3 /* CreateWorkoutViewController.swift */; };
+		6389F5032509985500E40399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389F5022509985500E40399 /* AppDelegate.swift */; };
+		6389F5052509985500E40399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389F5042509985500E40399 /* SceneDelegate.swift */; };
+		6389F5072509985500E40399 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389F5062509985500E40399 /* ViewControllerA.swift */; };
+		6389F50A2509985500E40399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6389F5082509985500E40399 /* Main.storyboard */; };
+		6389F50D2509985500E40399 /* FitU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6389F50B2509985500E40399 /* FitU.xcdatamodeld */; };
+		6389F5122509985600E40399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6389F5102509985600E40399 /* LaunchScreen.storyboard */; };
+		63929A3C25254D4B0038D65A /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929A3B25254D4B0038D65A /* NewViewController.swift */; };
+		63929A45252651A40038D65A /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929A44252651A40038D65A /* DietViewController.swift */; };
+		63929A4A252652BE0038D65A /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929A49252652BE0038D65A /* ExerciseViewController.swift */; };
+		63929A4D252653090038D65A /* MindsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929A4C252653090038D65A /* MindsetViewController.swift */; };
+		63929A522526539E0038D65A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929A512526539E0038D65A /* HomeViewController.swift */; };
+		63C3FD532537FA0D009E7046 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3FD522537FA0D009E7046 /* CreateAccountViewController.swift */; };
+		63CE85CC252EE9E300BC83AC /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CE85CB252EE9E300BC83AC /* SleepViewController.swift */; };
+		63CF4185255CB08A008A242A /* userFoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF4184255CB08A008A242A /* userFoodsViewController.swift */; };
+		A226D3432581AD5700E1D99F /* confirmExerciseDeletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226D3422581AD5700E1D99F /* confirmExerciseDeletionViewController.swift */; };
+		A226D3492581B32000E1D99F /* updateExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226D3482581B32000E1D99F /* updateExerciseViewController.swift */; };
+		A22D90042585AB8D0088999E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22D90032585AB8D0088999E /* SplashViewController.swift */; };
+		A249C543257743FE00D5C34B /* confirmDeletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249C542257743FE00D5C34B /* confirmDeletionViewController.swift */; };
+		A249C54E2577592300D5C34B /* updateFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249C54D2577592300D5C34B /* updateFoodViewController.swift */; };
+		A251D24C25855E7600B22F04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251D24B25855E7600B22F04 /* ProfileViewController.swift */; };
+		A25DE1D02586A9CF00A50395 /* confirmFoodAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DE1CF2586A9CF00A50395 /* confirmFoodAdditionViewController.swift */; };
+		A27115C02586917100028538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6389F50E2509985600E40399 /* Assets.xcassets */; };
+		A2D2F1F9257F01FB00FAE0EF /* userExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D2F1F8257F01FB00FAE0EF /* userExerciseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6322653C25538377004C32E9 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		6322662C2527CFD700FBB493 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6365F95425421F1700B39EB3 /* CreateFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodViewController.swift; sourceTree = "<group>"; };
+		6365F9592542243F00B39EB3 /* CreateWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutViewController.swift; sourceTree = "<group>"; };
+		6389F4FF2509985500E40399 /* FitU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6389F5022509985500E40399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6389F5042509985500E40399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6389F5062509985500E40399 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		6389F5092509985500E40399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6389F50C2509985500E40399 /* FitU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitU.xcdatamodel; sourceTree = "<group>"; };
+		6389F50E2509985600E40399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6389F5112509985600E40399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6389F5132509985600E40399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63929A3B25254D4B0038D65A /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		63929A44252651A40038D65A /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		63929A49252652BE0038D65A /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		63929A4C252653090038D65A /* MindsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindsetViewController.swift; sourceTree = "<group>"; };
+		63929A512526539E0038D65A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63C3FD522537FA0D009E7046 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		63CE85CB252EE9E300BC83AC /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		63CF4184255CB08A008A242A /* userFoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userFoodsViewController.swift; sourceTree = "<group>"; };
+		A226D3422581AD5700E1D99F /* confirmExerciseDeletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmExerciseDeletionViewController.swift; sourceTree = "<group>"; };
+		A226D3482581B32000E1D99F /* updateExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateExerciseViewController.swift; sourceTree = "<group>"; };
+		A22D90032585AB8D0088999E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A249C542257743FE00D5C34B /* confirmDeletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmDeletionViewController.swift; sourceTree = "<group>"; };
+		A249C54D2577592300D5C34B /* updateFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateFoodViewController.swift; sourceTree = "<group>"; };
+		A251D24B25855E7600B22F04 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A25DE1CF2586A9CF00A50395 /* confirmFoodAdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmFoodAdditionViewController.swift; sourceTree = "<group>"; };
+		A2D2F1F8257F01FB00FAE0EF /* userExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userExerciseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6389F4FC2509985500E40399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6389F4F62509985500E40399 = {
+			isa = PBXGroup;
+			children = (
+				6389F5012509985500E40399 /* FitU */,
+				6389F5002509985500E40399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6389F5002509985500E40399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6389F4FF2509985500E40399 /* FitU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6389F5012509985500E40399 /* FitU */ = {
+			isa = PBXGroup;
+			children = (
+				6389F5022509985500E40399 /* AppDelegate.swift */,
+				6389F5042509985500E40399 /* SceneDelegate.swift */,
+				6389F5082509985500E40399 /* Main.storyboard */,
+				6389F5062509985500E40399 /* ViewControllerA.swift */,
+				63929A512526539E0038D65A /* HomeViewController.swift */,
+				A251D24B25855E7600B22F04 /* ProfileViewController.swift */,
+				63929A3B25254D4B0038D65A /* NewViewController.swift */,
+				63929A44252651A40038D65A /* DietViewController.swift */,
+				A25DE1CF2586A9CF00A50395 /* confirmFoodAdditionViewController.swift */,
+				6365F95425421F1700B39EB3 /* CreateFoodViewController.swift */,
+				63CF4184255CB08A008A242A /* userFoodsViewController.swift */,
+				A249C54D2577592300D5C34B /* updateFoodViewController.swift */,
+				A249C542257743FE00D5C34B /* confirmDeletionViewController.swift */,
+				63929A49252652BE0038D65A /* ExerciseViewController.swift */,
+				6365F9592542243F00B39EB3 /* CreateWorkoutViewController.swift */,
+				A2D2F1F8257F01FB00FAE0EF /* userExerciseViewController.swift */,
+				A226D3482581B32000E1D99F /* updateExerciseViewController.swift */,
+				A226D3422581AD5700E1D99F /* confirmExerciseDeletionViewController.swift */,
+				63929A4C252653090038D65A /* MindsetViewController.swift */,
+				63CE85CB252EE9E300BC83AC /* SleepViewController.swift */,
+				A22D90032585AB8D0088999E /* SplashViewController.swift */,
+				6322662C2527CFD700FBB493 /* LoginViewController.swift */,
+				6322653C25538377004C32E9 /* ForgotPasswordViewController.swift */,
+				63C3FD522537FA0D009E7046 /* CreateAccountViewController.swift */,
+				6389F50E2509985600E40399 /* Assets.xcassets */,
+				6389F5102509985600E40399 /* LaunchScreen.storyboard */,
+				6389F5132509985600E40399 /* Info.plist */,
+				6389F50B2509985500E40399 /* FitU.xcdatamodeld */,
+			);
+			path = FitU;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6389F4FE2509985500E40399 /* FitU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6389F5162509985600E40399 /* Build configuration list for PBXNativeTarget "FitU" */;
+			buildPhases = (
+				6389F4FB2509985500E40399 /* Sources */,
+				6389F4FC2509985500E40399 /* Frameworks */,
+				6389F4FD2509985500E40399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitU;
+			productName = FitU;
+			productReference = 6389F4FF2509985500E40399 /* FitU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6389F4F72509985500E40399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "David Raygoza";
+				TargetAttributes = {
+					6389F4FE2509985500E40399 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 6389F4FA2509985500E40399 /* Build configuration list for PBXProject "FitU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6389F4F62509985500E40399;
+			productRefGroup = 6389F5002509985500E40399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6389F4FE2509985500E40399 /* FitU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6389F4FD2509985500E40399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389F5122509985600E40399 /* LaunchScreen.storyboard in Resources */,
+				A27115C02586917100028538 /* Assets.xcassets in Resources */,
+				6389F50A2509985500E40399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6389F4FB2509985500E40399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389F5072509985500E40399 /* ViewControllerA.swift in Sources */,
+				63929A4D252653090038D65A /* MindsetViewController.swift in Sources */,
+				63CE85CC252EE9E300BC83AC /* SleepViewController.swift in Sources */,
+				A249C543257743FE00D5C34B /* confirmDeletionViewController.swift in Sources */,
+				6365F95A2542243F00B39EB3 /* CreateWorkoutViewController.swift in Sources */,
+				63C3FD532537FA0D009E7046 /* CreateAccountViewController.swift in Sources */,
+				63929A4A252652BE0038D65A /* ExerciseViewController.swift in Sources */,
+				6322653D25538377004C32E9 /* ForgotPasswordViewController.swift in Sources */,
+				A249C54E2577592300D5C34B /* updateFoodViewController.swift in Sources */,
+				6389F50D2509985500E40399 /* FitU.xcdatamodeld in Sources */,
+				A226D3492581B32000E1D99F /* updateExerciseViewController.swift in Sources */,
+				63929A45252651A40038D65A /* DietViewController.swift in Sources */,
+				6365F95525421F1700B39EB3 /* CreateFoodViewController.swift in Sources */,
+				63929A522526539E0038D65A /* HomeViewController.swift in Sources */,
+				A226D3432581AD5700E1D99F /* confirmExerciseDeletionViewController.swift in Sources */,
+				63CF4185255CB08A008A242A /* userFoodsViewController.swift in Sources */,
+				A2D2F1F9257F01FB00FAE0EF /* userExerciseViewController.swift in Sources */,
+				A22D90042585AB8D0088999E /* SplashViewController.swift in Sources */,
+				63929A3C25254D4B0038D65A /* NewViewController.swift in Sources */,
+				6389F5032509985500E40399 /* AppDelegate.swift in Sources */,
+				A251D24C25855E7600B22F04 /* ProfileViewController.swift in Sources */,
+				A25DE1D02586A9CF00A50395 /* confirmFoodAdditionViewController.swift in Sources */,
+				6322662D2527CFD700FBB493 /* LoginViewController.swift in Sources */,
+				6389F5052509985500E40399 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6389F5082509985500E40399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389F5092509985500E40399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6389F5102509985600E40399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389F5112509985600E40399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6389F5142509985600E40399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6389F5152509985600E40399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6389F5172509985600E40399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92W22VYY6G;
+				INFOPLIST_FILE = FitU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidRaygoza.FitU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6389F5182509985600E40399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92W22VYY6G;
+				INFOPLIST_FILE = FitU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidRaygoza.FitU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6389F4FA2509985500E40399 /* Build configuration list for PBXProject "FitU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6389F5142509985600E40399 /* Debug */,
+				6389F5152509985600E40399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6389F5162509985600E40399 /* Build configuration list for PBXNativeTarget "FitU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6389F5172509985600E40399 /* Debug */,
+				6389F5182509985600E40399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6389F50B2509985500E40399 /* FitU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6389F50C2509985500E40399 /* FitU.xcdatamodel */,
+			);
+			currentVersion = 6389F50C2509985500E40399 /* FitU.xcdatamodel */;
+			path = FitU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6389F4F72509985500E40399 /* Project object */;
+}
